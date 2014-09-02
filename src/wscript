@@ -1,0 +1,19 @@
+
+def build(bld):
+    bld.program(
+            source='hello_world.cpp', 
+            target='hello_world',
+            features='etest'
+    )
+
+    bld.program(
+            source='needsarg_fail.cpp', 
+            target='needsarg_fail',
+            features='etest'
+    )
+    
+    bld.program(
+            source='needsarg_fail.cpp', 
+            target='needsarg_fail',
+            features='etest'
+    )
